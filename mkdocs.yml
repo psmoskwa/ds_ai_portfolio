@@ -1,0 +1,19 @@
+site_name: Moje projekty
+site_author: Piotr Moskwa
+site_description: >-
+  Portfolio moich przykładowych projektow z Data Science i AI
+
+repo_name: psmoskwa/ds_ai_portfolio
+repo_url: https://github.com/psmoskwa/ds_ai_portfolio
+
+theme:
+  name: material
+  palette:
+    primary: blue
+
+nav:
+- Strona domowa: index.md
+- Obecny projekt:
+  - "Titanic": titanic/index.md
+- Poprzednie projekty:
+  - "Iris": iris/index.md
